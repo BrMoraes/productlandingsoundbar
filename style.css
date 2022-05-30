@@ -1,0 +1,269 @@
+* {
+   font-family: "Open Sans",sans-serif;
+}
+
+img {
+   width: 60px;
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   background-color: #00abda;
+   height: 120px;
+   width: 100vw;
+   color: white;
+}
+
+header svg {
+   margin-left: 20px;
+   width: 400px;
+}
+
+.lateralborder {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.divbusca {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.divbusca img {
+   width: 24px;
+   height: 19px;
+   background-color: #00abda;
+}
+
+.divbusca input {
+   display: flex;
+   border-radius: 20px;
+   height: 30px;
+   width: 200px;
+   border-color: white;
+}
+
+.cliente {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   width: 200px;
+   border-right: 1px solid lightgray;
+   height: 50px;
+}
+
+.cliente img {
+   margin-top: 12px;
+   width: 50px;
+   height: 50px;
+}
+
+.textcliente {
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding-right: 10px;
+}
+
+.textcliente h2 {
+   font-size: 18px;
+   margin: 0;
+   font-weight: bold;
+}
+
+.textcliente h3{
+   font-size: 12px;
+   margin: 2;
+}
+
+.textcliente a {
+   text-decoration: none;
+   color: white;
+}
+
+.pedidos {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   width: 200px;
+   border-right: 1px solid lightgray;
+   height: 50px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.pedidos h2 {
+   font-size: 18px;
+   margin: 0;
+   font-weight: bold;
+}
+
+.pedidos h3 {
+   font-size: 12px;
+   margin: 2;
+}
+
+.pedidos img {
+   width: 50px;
+   height: 30px;
+   margin-right: 10px;
+}
+
+.textpedidos a {
+   text-decoration: none;
+   color: white;
+}
+
+.carrinho {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20px;
+}
+
+#soundbar {
+   margin-top: 100px;
+   width: 550px;
+}
+
+/*====== PRODUCT =========================*/
+
+.product {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px
+}
+
+.product h1 {
+   font-weight: 100;
+}
+
+.whatsapp img {
+   width: 30px;
+   margin-left: 10px;
+}
+
+.whatsapp a {
+   text-decoration: none;
+   color: #2ECC71;
+   display: flex;
+   align-items: center;
+}
+
+.productdesc {
+   display: flex;
+   flex-direction: column;
+}
+
+.productdesc h4 {
+   background-color: #2ECC71;
+   width: fit-content;
+   padding: 5px;
+   color: white;
+   margin-bottom: 0;
+}
+
+.price {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 4px;
+   height: 100px;
+}
+
+.price h5 {
+   font-size: 40px;
+   color: #00abda;
+}
+
+#payoptions {
+   margin-bottom: 20px;
+   color: black;
+}
+
+.buy {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.buy a {
+   text-decoration: none;
+}
+
+.buybutton,
+.addcartbutton {
+   display: flex;
+
+   padding: 20px;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   border-radius: 5px;
+   height: 30px;
+}
+
+.buybutton {
+   background-color: #2ECC71;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: white;
+   border: 1px solid #2ECC71;
+}
+
+.addcartbutton {
+   border: 1px solid black;
+}
+
+.cep {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+   border-top: double lightgray;
+}
+
+.cep label {
+   margin-top: 30px;
+}
+
+#cep {
+   width: 200px;
+   height: 40px;
+   margin-top: 10px;
+}
+
+.cepinput {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   gap: 8px;
+}
+
+.cepinput #submit {
+   height: 40px;
+   margin-top: 10px;
+   background-color: lightgray;
+   border: 1px solid lightgray;
+   color: white;
+   width: 50px;
+   font-size: 17px;
+}
+
+/*======== CARACTERÍSTICAS =============*/
+
+.caracteristics h1 {
+   text-transform: uppercase;
+   background-color: gray;
+   width: fit-content;
+   padding: 20px;
+   color: white;
+}
